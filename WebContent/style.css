@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+
+
+
+.add input[type=text],.add input[type=email],.add textarea,.add input[type=number],.ser input[type=text],.add input[type=password],select {
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.add input[type=submit],.sort input[type=submit],.ser input[type=submit]{
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+div {
+  padding: 10px;
+}
+.navbar button {
+  background: none;
+  font-style: italic;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar input{
+ background: none;
+ font-style: italic;
+ font-weight: 500;
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:focus {
+    border: none;
+    outline: none;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+#list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#list td, #list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#list tr:nth-child(even){background-color: #f2f2f2;}
+
+#list tr:hover {background-color: #ddd;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: grey;
+  color: white;
+}
+#list td input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 4px 12px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#list td #del{
+	background-color: red;
+  color: white;
+  padding: 4px 12px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ser label,.sort label{
+	 
+  padding-right:14px;
+}
+
